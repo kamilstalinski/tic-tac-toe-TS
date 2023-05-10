@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Architects Daughter", cursive;
+}
+
+.cell {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  font-family: "Handlee", cursive;
+}
+
+.popup {
+  width: 450px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  box-shadow: 0 0 10px #ddd;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.turn {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.turn span {
+  color: red;
+}
